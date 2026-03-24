@@ -7,11 +7,31 @@ using System.Threading.Tasks;
 
 namespace Bank_System
 {
+    public class InvalidInput : Exception
+    {
+        public InvalidInput(string msg) : base(msg) { }
+    }
+
     public class Customer_Account
     {
-        public string bank_name;
-        public long customer_accountNo;
-        public string customer_name;
+        private string Bank_Name;
+        public string bank_name
+        {
+            get { return Bank_Name; }
+            set { Bank_Name = value; }
+        }
+        private long Customer_AccountNo;
+        public long customer_accountNo
+        {
+            get { return Customer_AccountNo; }
+            set { Customer_AccountNo = value; }
+        }
+        private string Customer_Name;
+        public string customer_name
+        {
+            get { return Customer_Name; }
+            set { Customer_Name = value; }
+        }
 
         // Parameterized Constructor
         public Customer_Account(long accountNo, string customerName)
@@ -37,10 +57,34 @@ namespace Bank_System
     {
         static void Main(string[] args)
         {
-            Customer_Account acc = new Customer_Account(1234, "Shivang Chauhan") { bank_name = "ICICI Bank"};
+            try
+            {
+                Console.Write("Enter User Name : ");
+                string name = Console.ReadLine();
 
-            // Display Info.
-            acc.PrintInfo();
+                if(name == "")
+                {
+                    throw new InvalidInput("name cannot be null or empty");
+                }
+
+                Console.Write("Enter Account No. : ");
+                long acc_no = Convert.ToInt64(Console.ReadLine());
+
+                if (acc_no <= 0)
+                {
+                    throw new InvalidInput("Account Number should be greater than 0");
+                }
+                Console.WriteLine();
+
+                Customer_Account acc = new Customer_Account(acc_no, name) { bank_name = "ICICI Bank" };
+
+                // Display Info.
+                acc.PrintInfo();
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }             
         }
     }
 }
