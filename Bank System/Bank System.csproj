@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A0F31FD3-DE41-49E0-9A9C-1AD23D7D30AA}</ProjectGuid>
+    <ProjectGuid>{74A315EE-AAC0-4885-8F2E-573F0A74F1F3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Bank_System</RootNamespace>
     <AssemblyName>Bank System</AssemblyName>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customer_Account.cs" />
+    <Compile Include="Exceptions\InvalidInput.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
