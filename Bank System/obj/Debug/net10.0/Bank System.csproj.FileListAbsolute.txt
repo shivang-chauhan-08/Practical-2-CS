@@ -1,0 +1,14 @@
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\bin\Debug\net10.0\Bank System.exe
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\bin\Debug\net10.0\Bank System.deps.json
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\bin\Debug\net10.0\Bank System.runtimeconfig.json
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\bin\Debug\net10.0\Bank System.dll
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\bin\Debug\net10.0\Bank System.pdb
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\obj\Debug\net10.0\Bank System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\obj\Debug\net10.0\Bank System.AssemblyInfoInputs.cache
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\obj\Debug\net10.0\Bank System.AssemblyInfo.cs
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\obj\Debug\net10.0\Bank System.csproj.CoreCompileInputs.cache
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\obj\Debug\net10.0\Bank System.dll
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\obj\Debug\net10.0\refint\Bank System.dll
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\obj\Debug\net10.0\Bank System.pdb
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\obj\Debug\net10.0\Bank System.genruntimeconfig.cache
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\C# Practicles\Practical - 2\Bank System\Bank System\obj\Debug\net10.0\ref\Bank System.dll
